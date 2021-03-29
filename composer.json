@@ -1,0 +1,21 @@
+{
+  "name": "websolute/magento-m2if-wrapper",
+  "description": "This is a wrapper to call m2if commands programmatically",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "techdivision/import-cli-simple": "^3.8",
+    "techdivision/import-adapter-custom": "dev-master as 1.0.0"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Websolute\\M2ifWrapper\\": ""
+    }
+  }
+}

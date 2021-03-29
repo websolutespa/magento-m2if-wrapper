@@ -1,0 +1,15 @@
+Index: vendor/techdivision/import-cli/src/Console/ArgvInput.php
+<+>UTF-8
+===================================================================
+--- a/vendor/techdivision/import-cli/src/Console/ArgvInput.php	(date 1612612190018)
++++ b/vendor/techdivision/import-cli/src/Console/ArgvInput.php	(date 1612612190018)
+@@ -43,4 +43,9 @@
+     {
+         return isset($this->options[$name]);
+     }
++
++    public function setTokens(array $tokens)
++    {
++        parent::setTokens($tokens);
++    }
+ }
